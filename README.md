@@ -32,31 +32,6 @@ A simplified Instagram Stories implementation built with React, TypeScript, and 
 - **Jest & React Testing Library** for testing
 - **Create React App** for build tooling
 
-## 🏗️ Project Structure
-
-```
-src/
-├── components/
-│   ├── InstagramStories.tsx    # Main component
-│   ├── StoryList.tsx          # Story list component
-│   ├── StoryViewer.tsx        # Story viewer component
-│   └── ProgressBar.tsx        # Progress bar component
-├── types/
-│   └── index.ts               # TypeScript type definitions
-├── data/
-│   └── stories.json           # Story data (external file)
-├── hooks/
-│   ├── useStoryNavigation.ts  # Navigation logic
-│   └── useStoryTimer.ts       # Timer logic
-├── utils/
-│   └── storyHelpers.ts        # Utility functions
-├── tests/
-│   ├── InstagramStories.test.tsx
-│   └── e2e/
-│       └── stories.e2e.test.tsx
-└── App.tsx
-```
-
 ## 🚀 Getting Started
 
 ### Prerequisites
